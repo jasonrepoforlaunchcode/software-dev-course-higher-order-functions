@@ -47,7 +47,7 @@ const applyThirtyPercent = applyDiscount(30);
 applyThirtyPercent(products);
 console.log(products);
 
-console.log(products.map((obj) => obj.price).reduce((a, b) => a + b));
+console.log(products.map((obj) => obj.price).reduce((item1, item2) => item1 + item2));
 // ============================================
 // 🔧 Tasks
 // ============================================
